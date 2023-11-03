@@ -1,0 +1,146 @@
+.navimg{
+padding-left: 80px;
+margin-top: 30px;
+}
+.subHead{
+  top: 60px;
+}
+.para1{
+
+color: #662d91; }
+
+.yellow-part{
+  background-color: #ffcc32;
+  color: #662d91
+}
+.yellow-part2{
+  width: 75%;
+  background-color: #ffcc32;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: #662d91;
+}
+.ad-show{
+  background-color: transparent;
+}
+.ad-show p span{
+  font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+  color: #662d91;
+  
+}
+.containerr{
+  width: 75%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 150px;
+  
+ }
+.container-for {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; 
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.containerr-2{
+  margin-top: 40px;
+  width: 85%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+ /* ===== Form ===== */
+
+ .form-full{
+  background-color: #ffcc32 !important;   
+}
+.one-label{
+  font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+  color: #550087;
+
+}
+.btn-submit:hover{
+  background-color:lightskyblue;
+}
+.captcha{
+  height: 3em;
+  width: 3em !important;
+}
+.p-in-form{
+  font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+  color: #550087;
+  letter-spacing: .1em;
+  cursor: none;
+}
+
+/* ===== Footer ===== */
+
+footer{
+  align-items: center;
+  display: flex;
+  background-color: #662d91;
+  height: 270px;
+  margin-top: 100px;
+}
+footer ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.right{
+  margin-left: 10%;
+}
+.left{
+  margin-left: 20%;
+}
+footer .right li{
+  list-style: none;
+}
+footer .left li{
+  list-style: none;
+}
+.left a{
+  text-decoration: none;
+  font-size: 14px ;
+}
+.right {
+  font-family: sans-serif;
+  font-size: 13px;
+  color: white; 
+}
+ul .social-media{
+  display: flex;
+  column-gap: 17px;
+}
+.social-media img{
+  cursor: pointer;
+  margin-left: -20px;
+}
+
+/* ===== footer responsive ===== */
+@media(max-width:981px)
+{
+  footer{
+      height: 350px;
+      align-items: flex-start;
+      flex-direction: column;
+      background-color: #662d91;
+  }
+  footer ul{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+  }
+  .left{
+      margin-left:10%;
+ }
+}
